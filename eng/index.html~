@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="es">
+ 
+<head>
+	<title>web page</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="Act_Pag_Web.css" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body>
+	<header class="Title">Bicing Sitges</header>
+	<div id="main">
+		<article><BR>Bicing silos is a new project with collaboration of a company of Barcelona to make use of the bicycle a more natural , more comfortable than going to move by car and respectful nature.
+<BR><BR>
+This initiative bicing in Sitges we offer are different types of bicycle ( available <a href="productes.html"> Products </a>) , different routes optional if you want to make the routes already designed ( available <a href="rutes.html"> Best </a> and , of course, of four different puestos rent bikes scattered in different parts of the city of Sitges ( available <a href="localitzacio.html"> Location </a>) .
+
+If you want to know more, please contact us with different methods that we offer <a href="contacte.html"> Contact </a>.
+<BR>
+<BR>
+You can also find this page <a href="../cast/index.html">castellano</a> i en <a href="../eng/index.html">english</a>
+
+<BR><BR><BR><BR><BR>
+<MARQUEE DIRECTION=RIGHT><H1> WEBSITE UNDER CONSTRUCTION...</H1></MARQUEE>
+<BR><BR><BR><BR><BR>
+<img src="bicing_logo.png"></img>
+		</article>
+	<nav>
+	<ul>
+		<li><a id="Actiu" href="index.html">Index</a></li>
+		<li><a href="productes.html">Products</a></li>
+		<li><a href="localitzacio.html">Location</a></li>
+		<li><a href="rutes.html">routes</a></li>
+		<li><a href="contacte.html">Contact</a></li>
+	</ul>
+	</nav>
+		<aside></aside>
+	</div>
+	<footer><BR><BR><MARQUEE DIRECTION=RIGHT>Website created by: Oscar Navarro Rodríguez &#169; 2015</MARQUEE></footer>
+
+</body>
+</html>

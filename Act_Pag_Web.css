@@ -1,0 +1,124 @@
+#Contacte {
+	color:blue;
+	font-weight:bold;
+}
+
+header {
+	color:#FF0000;
+	vertical-align:text-bottom;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+header, footer {
+	display: block;
+	height: 10%;
+	/*background: #FC6;*/
+	text-align:center;
+	font-family:bank;
+	color:black;
+}
+
+#main {
+   height: 80%;
+   display: -webkit-flex;
+   display: flex;
+   flex-flow: row;
+}
+
+#main article {
+	background: #F5F6CE;
+	flex: 3 1 60%;
+	order: 2;
+	text-align:center;
+}
+
+#main article ul {
+	text-align:justify;
+}
+
+#main nav {
+	/*background: #CCF*/;
+	flex: 1 6 20%;
+	order: 1;
+	color:#000;
+}
+
+#main aside {
+	/*background: #CCF*/;
+	flex: 1 6 20%;
+	order: 3;
+}
+
+nav {
+	width:130px;
+	background-color:white;
+}
+
+nav ul {
+	width:80%;
+	list-style-type:none;
+	margin:0px auto;
+	padding:0px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-top-color:white;
+	border-right-color:white;
+	border-left-color:white;
+}
+
+nav ul a {
+	color:white;
+	text-decoration:none;
+	text-size:0.9em;
+	display:block;
+	padding:6px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:white;
+	background-color:black;
+	font-family:bank;
+	text-align:center;
+}
+
+nav ul a:hover {
+	color:red;
+	background-color:#666;
+	border-right-width:5px;
+	border-right-style:solid;
+	border-right-color:#36F;
+}
+
+#Actiu {
+	color:red;
+	background-color:white;
+	border-bottom:1px;
+	border-bottom-color:black;
+	border-bottom-style:solid;
+	border-top-color:black;
+	border-right-color:black;
+	border-left-color:black;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-left-style:solid;
+}
+
+.Title {
+	font-size:70px;
+	line-height: 85px;
+	font-family:bank;
+}
+
+@font-face {
+	font-family:bank;
+	src: url(bank.ttf);
+}
